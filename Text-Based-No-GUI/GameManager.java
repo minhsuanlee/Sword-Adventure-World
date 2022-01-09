@@ -2,8 +2,6 @@ package textgame;
 
 import java.util.Scanner;
 
-import textgame.*;
-
 public class GameManager {
     public static Scanner scanner = new Scanner(System.in);
     public static Game game = new Game();
@@ -177,12 +175,8 @@ public class GameManager {
                         if (devil.isDefeated()) {
                             game.setDevilDefeated();
                             printGameNarrative("You defeated the Devil");
-//                            printGameStoryDivider();
                         }
                     }
-
-//                    printGameStoryDivider();
-//                    changeLocation();
                 }
             }
         }

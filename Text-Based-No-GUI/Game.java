@@ -28,7 +28,7 @@ public class Game {
     public Game() {
         hp = FULL_HP;
         isGameOver = false;
-        goldCount = 5;
+        goldCount = 0;
         location = 0;
         sword = "Dagger";
         unknownInfo = new ArrayList<>();
