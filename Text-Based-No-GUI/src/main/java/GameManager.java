@@ -1,10 +1,13 @@
 import java.util.Scanner;
 
 public class GameManager {
-  public static Scanner scanner = new Scanner(System.in);
-  public static Game game = new Game();
+  public static Scanner scanner;
+  public static Game game;
 
   public static void main(String[] args) {
+    scanner = new Scanner(System.in);
+    game = new Game();
+
     if (!game.getIsGameOver()) {
       System.out.println("Welcome to Sword Adventure World");
       printGameStoryDivider();
