@@ -1,8 +1,8 @@
 # Sword-Adventure-World
 
-Series of Games for Sword Adventure World by Min-Hsuan (Sam) Lee
+### Stage 0: About Sword Adventure World Game
 
-### Stage 1: Text-Based Without GUI
+Series of Games for Sword Adventure World by Min-Hsuan (Sam) Lee
 
 #### Goal of the game:
 
@@ -16,17 +16,25 @@ Run the main program under the name GameManager.java.
 
 There is file checking for resources/information.txt, but no user input validations.
 
+### Stage 1: Text-Based Without GUI
+
 #### Key Takeaways:
 
 - Basic Java language structure and syntax
 - File / Console input
 - Basic game control loop and state management
 
-Created in January 2022.
+#### Created in January 2022.
 
 ### Stage 2: Text-Based With GUI (With Java Swing)
 
-#### Coming up next...
+#### Key Takeaways:
+
+- Convert from pure text game in Stage 1 to using Java Swing to incorporate GUI
+- New game features available in Stage 2
+- More improvements are on the way!
+
+#### Created in January 2022.
 
 ### Stage 3: Image-Based In 2D With GUI
 
